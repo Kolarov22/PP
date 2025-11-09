@@ -167,8 +167,13 @@ public class StreamsDemo {
 
         System.out.println("Exercise 5: " + exercise5(students, "A"));
 
+
+        List<Integer> aLotOfNumbers = new ArrayList<>();
+        for (int i = 1; i <= 100_000; i++) {
+            aLotOfNumbers.add(i);
+        }
         // Test exercise6
-        exercise6(numbers);
+        exercise6(aLotOfNumbers);
 
         // Test exercise7
         System.out.println("Exercise 7: " + exercise7(students));
